@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.atguigu.demo05.mapper.FlightInfoMapper">
+<mapper namespace="mapper.FlightInfoMapper">
     <!--    public ArrayList<FlightInfo> FlightInfoQuery(String startPos, String endPos );-->
-    <select id="FlightInfoQuery" resultType="com.atguigu.demo05.Bean.FlightInfo">
+    <select id="FlightInfoQuery" resultType="Bean.FlightInfo">
         SELECT f.f_id           f_id,
                f.airp_id        airp_id,
                p.port_name      port_name,

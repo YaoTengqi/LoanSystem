@@ -2,14 +2,14 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.atguigu.demo05.mapper.PageshowMapper">
+<mapper namespace="mapper.PageshowMapper">
     <!--    public Customer getCust(String Id);-->
-    <select id="findTotalCount" resultType="com.atguigu.demo05.Bean.Inovice">
+    <select id="findTotalCount" resultType="Bean.Inovice">
         select count(*)
         from air_ticket.seat_select
     </select>
 
-    <select id="findTotalOrder" resultType="com.atguigu.demo05.Bean.Inovice">
+    <select id="findTotalOrder" resultType="Bean.Inovice">
         select seat_select.*, flight_table.start_pos, flight_table.dest_pos
         from air_ticket.seat_select,
              air_ticket.flight_table
@@ -18,7 +18,7 @@
     </select>
 
 
-    <select id="findByPage" resultType="com.atguigu.demo05.Bean.Inovice">
+    <select id="findByPage" resultType="Bean.Inovice">
         select *
         from air_ticket.seat_select
         where order_id = #{order_id}
