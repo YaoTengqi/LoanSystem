@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class Sales extends Employee {
-    int performance;
-    String area;
+    private int performance;
+    private String area;
 }
