@@ -1,4 +1,4 @@
-package com.atguigu.demo05.utils;
+package utils;
 
 import java.util.UUID;
 

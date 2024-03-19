@@ -1,8 +1,6 @@
 package controller;
 
 import Bean.Customer;
-import mapper.CustormerMapper;
-import service.impl.RegistServiceImpl;
 import utils.MailUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

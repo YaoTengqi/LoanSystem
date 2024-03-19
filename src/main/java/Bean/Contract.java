@@ -16,5 +16,5 @@ public class Contract {
     private Date Contract_Time;
     private float Contract_Amount;
     private String Client_Intention;
-    private boolean Lending_Status;
+    private Boolean Lending_Status;
 }
