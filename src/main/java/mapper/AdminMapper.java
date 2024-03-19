@@ -1,8 +1,5 @@
 package mapper;
 
-import Bean.AdminFlight;
-import Bean.AdminView;
-import Bean.Aircom;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

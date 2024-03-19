@@ -5,7 +5,5 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Sales extends Employee {
-    private int Performance;
-    private String Area;
+public class Finance_Department extends Employee{
 }

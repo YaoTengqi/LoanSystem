@@ -1,7 +1,5 @@
 package mapper;
 
-import Bean.Inovice;
-import Bean.SeatSelect;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

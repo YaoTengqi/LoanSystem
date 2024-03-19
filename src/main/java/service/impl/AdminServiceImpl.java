@@ -1,8 +1,5 @@
 package service.impl;
 
-import Bean.AdminFlight;
-import Bean.AdminView;
-import Bean.Aircom;
 import mapper.AdminMapper;
 import service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;

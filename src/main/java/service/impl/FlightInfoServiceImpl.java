@@ -1,8 +1,6 @@
 package service.impl;
 
-import Bean.FlightInfo;
 import mapper.FlightInfoMapper;
-import service.FlightInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,5 @@
 package mapper;
 
-import Bean.SeatSelect;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

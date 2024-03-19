@@ -7,8 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Aircom {
-    private String aircom_id;
-
-    private String aircom_name;
+public class Client {
+    private String Name;
+    private boolean Gender;
+    private String ID;
+    private String Phone_Number;
 }

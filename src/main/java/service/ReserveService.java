@@ -1,6 +1,5 @@
 package service;
 
-import Bean.SeatSelect;
 import org.springframework.stereotype.Service;
 
 @Service

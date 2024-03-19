@@ -1,8 +1,5 @@
 package service;
 
-import Bean.Inovice;
-import Bean.SeatSelect;
-
 import java.util.List;
 
 public interface PageShowService {

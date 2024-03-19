@@ -1,9 +1,5 @@
 package service;
 
-import Bean.AdminFlight;
-import Bean.AdminView;
-import Bean.Aircom;
-
 import java.util.List;
 
 public interface AdminService {
